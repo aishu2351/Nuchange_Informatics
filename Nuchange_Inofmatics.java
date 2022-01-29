@@ -37,7 +37,7 @@ class Nuchange_Inofmatics{
        
             
         }else{
-            System.out.println("Empty Database!.....");
+            System.out.println("Empty!.....");
         }
         String op = sc.nextLine();
 
