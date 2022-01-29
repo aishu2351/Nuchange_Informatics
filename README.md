@@ -1,4 +1,5 @@
 # Nuchange_Informatics
+Run in Command Prompt
 Before run the file compile it
 #while Running run with command line arguments
 
@@ -10,10 +11,10 @@ javac Nuchange_Inofmatics.java
 //To Run      :       
 java Nuchange_Inofmatics storeurl google.com
 
-//Perform some operations
-#get yahoo.com
-#storeurl www.com
-#storeurl www.com
-#count www.com
-#list 
-#exit
+//Perform some operations                               
+#get yahoo.com                           
+#storeurl www.com                      
+#storeurl www.com                              
+#count www.com                    
+#list                    
+#exit                    
