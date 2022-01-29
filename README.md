@@ -4,8 +4,13 @@ Before run the file compile it
 
 ////////////////////////Use Above Commands or Refer to run\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+//To compile 
 #javac Nuchange_Inofmatics.java
+
+//To Run
 #java Nuchange_Inofmatics storeurl google.com
+
+//Perform some operations
 #get yahoo.com
 #storeurl www.com
 #storeurl www.com
