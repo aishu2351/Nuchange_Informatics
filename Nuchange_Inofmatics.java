@@ -14,11 +14,12 @@ class Nuchange_Inofmatics{
 
     static void increment(String url){
         int c=0;
+        
         if(urlWithCount.containsKey(url)){
             urlWithCount.put(url,urlWithCount.get(url)+1);
             }
             else{
-                c++;
+                c++; //count incrementation
                 urlWithCount.put(url,c);
             }
             
@@ -38,7 +39,6 @@ class Nuchange_Inofmatics{
         }else{
             System.out.println("Empty Database!.....");
         }
-      //  System.out.println("if u want to continue again pls enter ur Argument:");
         String op = sc.nextLine();
 
         String[ ] inputArray = op.split(" ");
@@ -93,13 +93,15 @@ class Nuchange_Inofmatics{
         
 
         int min=1, max=100,c=0;
-        int uid = (int) (Math.random()*(max-min+1)+min);
+        //unique ID generation 
+        int uid = (int) (Math.random()*(max-min+1)+min); 
 
         
         if(urlWithUid.containsKey(url)){
             increment(url);
             
         }else{
+            //storing values to map
             urlWithUid.put(url, uid);
             urlWithCount.put(url,c);
         }
@@ -125,6 +127,8 @@ class Nuchange_Inofmatics{
     
     static void option(String option, String url){
         
+        //choice selection
+
         switch(option){
             case "storeurl": storeurl(url);
                  break;
